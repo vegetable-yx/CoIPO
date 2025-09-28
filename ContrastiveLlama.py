@@ -123,8 +123,8 @@ class ContrastiveLoss(nn.Module):
         return loss
 
     def forward(self, original_logits, paraphrased_logits, original_labels):
-        loss = self.compute_dpo_loss(original_logits, paraphrased_logits, original_labels)
-        return loss
+        # loss = self.compute_dpo_loss(original_logits, paraphrased_logits, original_labels)
+        # return loss
 
         original_output_logits = self.get_output_logits(original_logits, original_labels)
         paraphrased_output_logits = self.get_output_logits(paraphrased_logits, original_labels)

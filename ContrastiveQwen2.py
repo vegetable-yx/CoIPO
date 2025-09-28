@@ -47,7 +47,6 @@ class ContrastiveLoss(nn.Module):
         para1 = paraphrased_output_logits[1]
         
         def calculate_kl(logits_q, logits_p, temp, pad_val):
-            """计算KL(q || p)，处理序列长度不匹配的情况（短序列补齐）"""
             len_q, voc_size = logits_q.shape
             len_p, _ = logits_p.shape
             target_len = max(len_q, len_p)

@@ -94,7 +94,7 @@ CHECKLIST_RANDOM_SEQ = ['LGOZMPXsPd', 'DIHVWPN6U1', 'lhKrdEwcN5', 'sbkysCbk66', 
  '9LbBv68VVd', 'LjU1kRjJlX', 'JUI83rAewS', '9BlumhJ9sT', 'Ee5npqYDtm', 'iDDHPq06uH',
  'rivFsYFkix', 'InBRuQ7RrQ', 'CKs02aCQgF', '9FkhdI9r16', 'le65w5L9DV', 'T5A0HhW1cy']
 
-# Perturbed instructions for evaluation. Each task has 6 prompts for each type of perturbation.
+# Perturbed instructions for evaluation. Each task has 8 prompts for each type of perturbation.
 PROMPT_SET_Promptbench_adv = {
     'clean': {
         'cola': [
