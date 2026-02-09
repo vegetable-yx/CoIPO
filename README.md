@@ -1,5 +1,5 @@
 <div align="center">
-<img src="image/logo.png" width="200px">
+<img src="logo.png" width="200px">
 **Meituan LongCat Interaction Team**
 </div>
 
