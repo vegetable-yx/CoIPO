@@ -1,3 +1,8 @@
+<div align="center">
+<img src="image/logo.png" width="200px">
+**Meituan LongCat Interaction Team**
+</div>
+
 # CoIPO
 
 ## Paired FLAN dataset
